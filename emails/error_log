@@ -1,0 +1,27 @@
+[31-Jul-2021 00:22:36 UTC] PHP Fatal error:  Uncaught Error: Class 'SMTP' not found in /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php:1478
+Stack trace:
+#0 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1561): PHPMailer->getSMTPInstance()
+#1 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1498): PHPMailer->smtpConnect(Array)
+#2 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1335): PHPMailer->smtpSend('Date: Sat, 31 J...', 'Hi! nn This is ...')
+#3 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1213): PHPMailer->postSend()
+#4 /home2/devappso/exceliacom.devappsolution.com/admin/emails/testmail.php(20): PHPMailer->send()
+#5 {main}
+  thrown in /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php on line 1478
+[31-Jul-2021 00:22:39 UTC] PHP Fatal error:  Uncaught Error: Class 'SMTP' not found in /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php:1478
+Stack trace:
+#0 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1561): PHPMailer->getSMTPInstance()
+#1 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1498): PHPMailer->smtpConnect(Array)
+#2 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1335): PHPMailer->smtpSend('Date: Sat, 31 J...', 'Hi! nn This is ...')
+#3 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1213): PHPMailer->postSend()
+#4 /home2/devappso/exceliacom.devappsolution.com/admin/emails/testmail.php(20): PHPMailer->send()
+#5 {main}
+  thrown in /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php on line 1478
+[31-Jul-2021 00:22:42 UTC] PHP Fatal error:  Uncaught Error: Class 'SMTP' not found in /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php:1478
+Stack trace:
+#0 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1561): PHPMailer->getSMTPInstance()
+#1 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1498): PHPMailer->smtpConnect(Array)
+#2 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1335): PHPMailer->smtpSend('Date: Sat, 31 J...', 'Hi! nn This is ...')
+#3 /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php(1213): PHPMailer->postSend()
+#4 /home2/devappso/exceliacom.devappsolution.com/admin/emails/testmail.php(20): PHPMailer->send()
+#5 {main}
+  thrown in /home2/devappso/exceliacom.devappsolution.com/admin/emails/class.phpmailer.php on line 1478

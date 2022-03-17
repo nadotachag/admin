@@ -1,0 +1,17 @@
+[31-Jul-2021 11:22:45 UTC] PHP Warning:  include(mailer/smtp/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php on line 2
+[31-Jul-2021 11:22:45 UTC] PHP Warning:  include(mailer/smtp/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php on line 2
+[31-Jul-2021 11:22:45 UTC] PHP Warning:  include(): Failed opening 'mailer/smtp/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php on line 2
+[31-Jul-2021 11:22:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php:5
+Stack trace:
+#0 /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php(3): smtp_mailer('dev.apsolution@...', 'test subject', 'salam my messag...')
+#1 {main}
+  thrown in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php on line 5
+[31-Jul-2021 11:24:57 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php on line 2
+[31-Jul-2021 11:25:29 UTC] PHP Warning:  include(mailer/smtp/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php on line 7
+[31-Jul-2021 11:25:29 UTC] PHP Warning:  include(mailer/smtp/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php on line 7
+[31-Jul-2021 11:25:29 UTC] PHP Warning:  include(): Failed opening 'mailer/smtp/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php on line 7
+[31-Jul-2021 11:25:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php:10
+Stack trace:
+#0 /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php(8): smtp_mailer('dev.apsolution@...', 'test subject', 'salam my messag...')
+#1 {main}
+  thrown in /home2/devappso/exceliacom.devappsolution.com/admin/mailer/simple.php on line 10
